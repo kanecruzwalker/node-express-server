@@ -3,7 +3,9 @@ const express = require("express");
 const app = express();
 
 
-// a get 
+// a get route 
+// for root directory /
+// with response
 app.get("/", function(request, response){
     response.send("Hello");
 });
